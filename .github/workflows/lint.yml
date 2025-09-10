@@ -8,7 +8,7 @@ on:
 
 jobs:
   lint:
-    name: Run ESLint
+    name: Lint
     runs-on: ubuntu-latest
 
     steps:
@@ -35,33 +35,9 @@ jobs:
       - name: Run TypeScript type check
         run: npx tsc --noEmit
 
-  lint-and-format:
-    name: Lint with auto-fix and format check
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 10
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-          cache: 'pnpm'
-
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile || pnpm install
-
-      - name: Run ESLint with auto-fix
-        run: pnpm run lint --fix
-
-      - name: Check for changes after auto-fix
+      - name: Check ESLint auto-fix
         run: |
+          pnpm run lint --fix
           if [ -n "$(git status --porcelain)" ]; then
             echo "❌ ESLint auto-fix made changes. Please run 'pnpm run lint --fix' locally and commit the changes."
             git diff
@@ -70,7 +46,7 @@ jobs:
             echo "✅ No auto-fixable linting errors found."
           fi
 
-      - name: Check if Prettier would make changes
+      - name: Check Prettier formatting
         run: |
           if ! pnpm run format:check; then
             echo "❌ Code formatting issues found. Please run 'pnpm run format' locally."
