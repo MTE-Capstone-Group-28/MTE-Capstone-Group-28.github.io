@@ -7,7 +7,7 @@ import {
 import { SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar'
 import { AppSidebar } from '@/components/app-sidebar'
 import { Week1 } from '@/pages/Week1'
-import { Landing } from './pages/Landing'
+import { Home } from './pages/Home'
 import './App.css'
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<Navigate to="/landing" replace />} />
-            <Route path="/landing" element={<Landing />} />
+            <Route path="/landing" element={<Home />} />
             <Route path="/week1" element={<Week1 />} />
           </Routes>
         </main>

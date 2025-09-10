@@ -1,4 +1,4 @@
-export function Landing() {
+export function Home() {
   return (
     <div>
       <h1>
