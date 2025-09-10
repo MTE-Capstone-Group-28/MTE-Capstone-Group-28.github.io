@@ -41,7 +41,7 @@ export function AppSidebar() {
             </SidebarGroupContent>
           </SidebarGroup>
         )}
-        
+
         {designLogItems.length > 0 && (
           <SidebarGroup>
             <SidebarGroupLabel>Design Logs</SidebarGroupLabel>
