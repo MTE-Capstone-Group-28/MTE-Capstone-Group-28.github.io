@@ -18,8 +18,8 @@ function App() {
         <SidebarTrigger className="fixed top-4 left-4 z-40 transition-all duration-200 peer-data-[state=expanded]:left-[calc(16rem+1rem)]" />
         <main>
           <Routes>
-            <Route path="/" element={<Navigate to="/landing" replace />} />
-            <Route path="/landing" element={<Home />} />
+            <Route path="/" element={<Navigate to="/home" replace />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/week1" element={<Week1 />} />
           </Routes>
         </main>
