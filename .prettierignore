@@ -1,0 +1,18 @@
+# Build outputs
+dist/
+build/
+assets/
+
+# Dependencies
+node_modules/
+
+# Generated files
+*.min.js
+*.bundle.js
+pnpm-lock.yaml
+
+# Config files (optional - you can format these if you want)
+package-lock.json
+.next/
+.nuxt/
+coverage/
