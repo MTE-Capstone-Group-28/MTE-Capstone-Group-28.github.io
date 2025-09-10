@@ -58,12 +58,12 @@ jobs:
         run: pnpm install --frozen-lockfile || pnpm install
 
       - name: Run ESLint with auto-fix
-        run: pnpm run lint -- --fix
+        run: pnpm run lint --fix
 
       - name: Check for changes after auto-fix
         run: |
           if [ -n "$(git status --porcelain)" ]; then
-            echo "❌ ESLint auto-fix made changes. Please run 'pnpm run lint -- --fix' locally and commit the changes."
+            echo "❌ ESLint auto-fix made changes. Please run 'pnpm run lint --fix' locally and commit the changes."
             git diff
             exit 1
           else
