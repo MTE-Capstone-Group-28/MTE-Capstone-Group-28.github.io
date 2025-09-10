@@ -6,7 +6,7 @@ Weekly updates for our team's capstone progress.
 
 ### Prerequisites
 
-- Node.js 22.9.0+
+- Node.js 22.12.0+
 - pnpm 10.15.1+
 
 ### Getting Started
