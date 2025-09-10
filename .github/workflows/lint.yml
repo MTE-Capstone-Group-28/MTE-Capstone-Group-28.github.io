@@ -38,7 +38,6 @@ jobs:
   lint-and-format:
     name: Lint with auto-fix and format check
     runs-on: ubuntu-latest
-    if: github.event_name == 'pull_request'
 
     steps:
       - name: Checkout code
