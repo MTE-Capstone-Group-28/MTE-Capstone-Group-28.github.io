@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom"
+import { Link, useLocation } from 'react-router-dom'
 
 import {
   Sidebar,
@@ -9,8 +9,8 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@/components/ui/sidebar"
-import { navigationItems } from "@/lib/navigation"
+} from '@/components/ui/sidebar'
+import { navigationItems } from '@/lib/navigation'
 
 export function AppSidebar() {
   const location = useLocation()
@@ -22,9 +22,12 @@ export function AppSidebar() {
           <SidebarGroupLabel>Design Logs</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
-              {navigationItems.map((item) => (
+              {navigationItems.map(item => (
                 <SidebarMenuItem key={item.title}>
-                  <SidebarMenuButton asChild isActive={location.pathname === item.url}>
+                  <SidebarMenuButton
+                    asChild
+                    isActive={location.pathname === item.url}
+                  >
                     <Link to={item.url}>
                       <span>{item.title}</span>
                     </Link>
