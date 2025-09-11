@@ -6,7 +6,7 @@ Weekly updates for our team's capstone progress.
 
 ### Prerequisites
 
-- Node.js 22.9.0+
+- Node.js 22.12.0+
 - pnpm 10.15.1+
 
 ### Getting Started
@@ -42,3 +42,7 @@ Automated workflows run on every push and pull request:
 
 - **Lint** - ESLint + TypeScript type checking + Prettier formatting validation
 - **Build** - Production build verification
+
+## Access the website
+
+- [https://mte-capstone-group-28.github.io/](https://mte-capstone-group-28.github.io/)
