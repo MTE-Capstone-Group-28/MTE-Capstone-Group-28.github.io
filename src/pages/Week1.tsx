@@ -10,43 +10,43 @@ export function Week1() {
         <h2 className="text-2xl font-semibold mb-4 text-left">Meetings</h2>
         <hr className="border-gray-300 mb-4 w-full" />
         <ul className="list-disc list-inside">
-          <li className="text-gray-700 mb-2">Meeting with team and advisor: 09/08/2025</li>
+          <li className="text-gray-700 mb-2">
+            Meeting with team and advisor: 09/08/2025
+          </li>
         </ul>
       </section>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4 text-left">Miscellaneous</h2>
         <hr className="border-gray-300 mb-4 w-full" />
-        <ul className="list-disc list-inside">
-        </ul>
+        <ul className="list-disc list-inside"></ul>
       </section>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4 text-left">Mechanical</h2>
         <hr className="border-gray-300 mb-4 w-full" />
-        <ul className="list-disc list-inside">
-        </ul>
+        <ul className="list-disc list-inside"></ul>
       </section>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4 text-left">Electrical</h2>
         <hr className="border-gray-300 mb-4 w-full" />
-        <ul className="list-disc list-inside">
-        </ul>
+        <ul className="list-disc list-inside"></ul>
       </section>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4 text-left">Firmware</h2>
         <hr className="border-gray-300 mb-4 w-full" />
-        <ul className="list-disc list-inside">
-        </ul>
+        <ul className="list-disc list-inside"></ul>
       </section>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4 text-left">Software</h2>
         <hr className="border-gray-300 mb-4 w-full" />
         <ul className="list-disc list-inside">
-          <li className="text-gray-700 mb-2">Design log website: James - 09/10/2025</li>
+          <li className="text-gray-700 mb-2">
+            Design log website: James - 09/10/2025
+          </li>
         </ul>
       </section>
     </div>
