@@ -42,3 +42,7 @@ Automated workflows run on every push and pull request:
 
 - **Lint** - ESLint + TypeScript type checking + Prettier formatting validation
 - **Build** - Production build verification
+
+## Access the website
+
+- [https://mte-capstone-group-28.github.io/](https://mte-capstone-group-28.github.io/)
