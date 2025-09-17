@@ -1,9 +1,9 @@
-export function Week1() {
+export function Week2() {
   return (
     <div className="p-6">
-      <h1 className="text-3xl font-bold mb-4 text-left">Week 1</h1>
+      <h1 className="text-3xl font-bold mb-4 text-left">Week 2</h1>
       <p className="text-lg text-gray-600 text-left mb-8">
-        Here's our progress for week 1!
+        Here's our progress for week 2!
       </p>
 
       <section className="mb-8">
@@ -11,7 +11,7 @@ export function Week1() {
         <hr className="border-gray-300 mb-4 w-full" />
         <ul className="list-disc list-inside">
           <li className="text-gray-700 mb-2 text-left">
-            Meeting with team and advisors: 09/08/2025
+            Meeting with team and advisors: 09/15/2025
           </li>
         </ul>
       </section>
@@ -21,10 +21,10 @@ export function Week1() {
         <hr className="border-gray-300 mb-4 w-full" />
         <ul className="list-disc list-inside">
           <li className="text-gray-700 mb-2 text-left">
-            Discussed individual skills and assigned general roles: All - 09/07/2025
+            Finalized capstone project idea, chose omni-direction/holonomic aerial drone for search-and-rescue: All - 09/09/2025
           </li>
           <li className="text-gray-700 mb-2 text-left">
-            Brainstormed possible capstone projects: All - 09/07/2025
+            Researched similar projects and existing solutions, performed literature review: Yang Li - 09/12/2025
           </li>
         </ul>
       </section>
@@ -34,7 +34,7 @@ export function Week1() {
         <hr className="border-gray-300 mb-4 w-full" />
         <ul className="list-disc list-inside">
           <li className="text-gray-700 mb-2 text-left">
-            Create repository for design log website and decide tech-stack for website: James - 09/08/2025
+            Finish design log website template and deployed using GitHub Pages: James - 09/10/2025
           </li>
         </ul>
       </section>

@@ -7,6 +7,8 @@ import {
 import { SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar'
 import { AppSidebar } from '@/components/app-sidebar'
 import { Week1 } from '@/pages/Week1'
+import { Week2 } from '@/pages/Week2'
+import { Week3 } from '@/pages/Week3'
 import { Home } from './pages/Home'
 import './App.css'
 
@@ -21,6 +23,8 @@ function App() {
             <Route path="/" element={<Navigate to="/home" replace />} />
             <Route path="/home" element={<Home />} />
             <Route path="/week1" element={<Week1 />} />
+            <Route path="/week2" element={<Week2 />} />
+            <Route path="/week3" element={<Week3 />} />
           </Routes>
         </main>
       </SidebarProvider>
