@@ -21,7 +21,8 @@ export function Week3() {
         <hr className="border-gray-300 mb-4 w-full" />
         <ul className="list-disc list-inside">
           <li className="text-gray-700 mb-2 text-left">
-            Determined project details, including problem statement, constraints, and criteria: All - 09/20/2025
+            Determined project details, including problem statement,
+            constraints, and criteria: All - 09/20/2025
           </li>
         </ul>
       </section>

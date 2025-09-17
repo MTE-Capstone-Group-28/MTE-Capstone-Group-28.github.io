@@ -13,6 +13,6 @@ export const navigationItems = [
   },
   {
     title: 'Week 3',
-    url: '/week3'
+    url: '/week3',
   },
 ]

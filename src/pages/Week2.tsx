@@ -21,10 +21,12 @@ export function Week2() {
         <hr className="border-gray-300 mb-4 w-full" />
         <ul className="list-disc list-inside">
           <li className="text-gray-700 mb-2 text-left">
-            Finalized capstone project idea, chose omni-direction/holonomic aerial drone for search-and-rescue: All - 09/09/2025
+            Finalized capstone project idea, chose omni-direction/holonomic
+            aerial drone for search-and-rescue: All - 09/09/2025
           </li>
           <li className="text-gray-700 mb-2 text-left">
-            Researched similar projects and existing solutions, performed literature review: Yang Li - 09/12/2025
+            Researched similar projects and existing solutions, performed
+            literature review: Yang Li - 09/12/2025
           </li>
         </ul>
       </section>
@@ -34,7 +36,8 @@ export function Week2() {
         <hr className="border-gray-300 mb-4 w-full" />
         <ul className="list-disc list-inside">
           <li className="text-gray-700 mb-2 text-left">
-            Finish design log website template and deployed using GitHub Pages: James - 09/10/2025
+            Finish design log website template and deployed using GitHub Pages:
+            James - 09/10/2025
           </li>
         </ul>
       </section>

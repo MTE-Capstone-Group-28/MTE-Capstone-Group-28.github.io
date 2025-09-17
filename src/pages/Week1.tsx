@@ -21,7 +21,8 @@ export function Week1() {
         <hr className="border-gray-300 mb-4 w-full" />
         <ul className="list-disc list-inside">
           <li className="text-gray-700 mb-2 text-left">
-            Discussed individual skills and assigned general roles: All - 09/07/2025
+            Discussed individual skills and assigned general roles: All -
+            09/07/2025
           </li>
           <li className="text-gray-700 mb-2 text-left">
             Brainstormed possible capstone projects: All - 09/07/2025
@@ -34,7 +35,8 @@ export function Week1() {
         <hr className="border-gray-300 mb-4 w-full" />
         <ul className="list-disc list-inside">
           <li className="text-gray-700 mb-2 text-left">
-            Create repository for design log website and decide tech-stack for website: James - 09/08/2025
+            Create repository for design log website and decide tech-stack for
+            website: James - 09/08/2025
           </li>
         </ul>
       </section>
