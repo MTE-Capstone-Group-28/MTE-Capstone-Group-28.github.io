@@ -16,3 +16,9 @@ package-lock.json
 .next/
 .nuxt/
 coverage/
+vite.config.ts
+
+# Actions
+deploy.yml 
+build.yml 
+lint.yml 
