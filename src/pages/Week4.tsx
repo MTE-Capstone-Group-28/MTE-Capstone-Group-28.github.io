@@ -11,8 +11,8 @@ export function Week4() {
         <hr className="border-gray-300 mb-4 w-full" />
         <ul className="list-disc list-inside"></ul>
         <li className="text-gray-700 mb-2 text-left">
-            No meeting this week: 09/29/2025
-          </li>
+          No meeting this week: 09/29/2025
+        </li>
       </section>
 
       <section className="mb-8">
@@ -23,6 +23,3 @@ export function Week4() {
     </div>
   )
 }
-
-
-
