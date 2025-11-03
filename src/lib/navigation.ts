@@ -23,4 +23,8 @@ export const navigationItems = [
     title: 'Week 5',
     url: '/week5',
   },
+  {
+    title: 'Week 6',
+    url: '/week6',
+  },
 ]
