@@ -1,7 +1,7 @@
 export function Week6() {
   return (
     <div className="p-6">
-      <h1 className="text-3xl font-bold mb-4 text-left">Week 5</h1>
+      <h1 className="text-3xl font-bold mb-4 text-left">Week 6</h1>
       <p className="text-lg text-gray-600 text-left mb-8">
         Here's our progress for week 6!
       </p>
