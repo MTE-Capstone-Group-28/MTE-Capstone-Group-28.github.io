@@ -12,7 +12,8 @@ import { Week3 } from '@/pages/Week3'
 import { Week4 } from '@/pages/Week4'
 import { Week5 } from '@/pages/Week5'
 import { Week6 } from '@/pages/Week6'
-import { Home } from './pages/Home'
+import { Week7 } from '@/pages/Week7'
+import { Home } from '@/pages/Home'
 import './App.css'
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
             <Route path="/week4" element={<Week4 />} />
             <Route path="/week5" element={<Week5 />} />
             <Route path="/week6" element={<Week6 />} />
+            <Route path="/week7" element={<Week7 />} />
           </Routes>
         </main>
       </SidebarProvider>
